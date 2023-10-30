@@ -1,4 +1,5 @@
 from cmu_graphics import*
+from cmu_graphics import cmu_graphics
 
 #playa
 Poligono(0,230,400,0,400,200,240,240,0,280,fill=gradiente('madera','trigo'),borde='negro')
