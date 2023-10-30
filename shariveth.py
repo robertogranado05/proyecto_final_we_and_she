@@ -1,6 +1,7 @@
 from cmu_graphics import*
 from cmu_graphics import cmu_graphics
 
+
 #playa
 Poligono(0,230,400,0,400,200,240,240,0,280,fill=gradiente('madera','trigo'),borde='negro')
 Línea(0,230,400,80,fill='tierra',anchuraDeLínea=8)
@@ -14,4 +15,4 @@ Circulo(60,160,10,fill='naranjaMarrón',borde='negro')
 Circulo(50,170,10,fill='naranjaMarrón',borde='negro')
 
 
-cmu_graphics.run()
+cmu_graphics.run()   
