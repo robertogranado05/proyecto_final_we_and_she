@@ -8,13 +8,13 @@ fabrica=Grupo(
         Poligono(0,160,80,160,80,240,0,240,0,160,opacidad=50,borde='negro'),    
         Poligono(160,160,240,160,240,240,160,240,160,160,opacidad=50,borde='negro'), 
         Línea(120,200,120,320,anchuraDeLínea=5),
-
-#huerta
+)
+huerta=Grupo(
        Poligono(240,120,400,120,280,280,240,240,240,120,fill='tierra',borde='negro'),
        Línea(240,240,280,120,anchuraDeLínea=6),
        Línea(280,280,330,120,anchuraDeLínea=6),
-          
-#plantas´
+)         
+plantas=Grupo(
        Poligono(280,120,300,120,290,140,fill='verde'),
        Línea(290,138,290,160,fill='granate',anchuraDeLínea=5),
 
@@ -77,9 +77,8 @@ Camion=Grupo(
         Rect(245,297,9,5,relleno='amarillo')
 
 )
-MESAJE=Group(
-        Rotulo('Para Saltar Escena Presione Espacio ',200,120,tamaño=20,relleno='blanco',italica=True,negrito=True)
-)     
+MENSAJE= Rótulo('Para Saltar Escena Presione Espacio ',200,120,tamaño=20,relleno='blanco',italica=True,negrito=True)
+    
 def enTeclaPresionada(tecla):
 
      if (tecla == 'd'):
